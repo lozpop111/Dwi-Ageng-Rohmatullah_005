@@ -104,7 +104,7 @@ def diskon_10(Keju):
     harga.insert(1, bayar)
     print("Harga kue keju adalah: Rp.", bayar)
 def diskon_15(Keju):
-    print("Diskon untuk kue keju sebesar 12%")
+    print("Diskon untuk kue keju sebesar 15%")
     diskon = (int(Keju) * 6000 * 15 / 100)
     bayar = int(Keju) * 6000 - diskon
     harga.insert(1, bayar)
