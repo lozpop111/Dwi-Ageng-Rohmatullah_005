@@ -16,5 +16,5 @@ while True:
             n += 1
         break
     except ValueError:
-        print("Ups! Itu bukan nomor yang valid. Coba lagi...")
+        print("Maaf itu bukan nomor yang benar, silahkan Coba lagi...")
         time.sleep(1.5)
